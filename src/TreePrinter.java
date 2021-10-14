@@ -18,7 +18,7 @@ class BinaryTree<T>{
 public class TreePrinter<Tree extends BinaryTree<?>> {
 
     //Powershell和Graphviz的环境变量路径，用分号隔开，路径参考：C:\Program Files\Graphviz\bin\;C:\Windows\System32\WindowsPowerShell\v1.0\
-    static final String PATH="D:\\Program Files\\Graphviz\\bin\\;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\";
+    static final String PATH=" ";
     Tree printObj;
     BufferedWriter out;
 
